@@ -30,7 +30,7 @@ First the __Stochastic Gradient Descent (SGD)__ and __Random Forest__ classifier
 The dataset has been split with K-fold (with K=10)
 For each classifier, and for each split, there is a training phase (fit the model), a test phase (predict) and the some evaluation metrics have been computed.
 ### Dense Neural Network
-It is compesed of three hidden layers, each of which apply an affine linear transformation to the incoming data.
+It is composed of three hidden layers, each of which apply an affine linear transformation to the incoming data.
 Then it applies the ReLU (Rectified Linear Unit) function element-wise.
 Finally, applies the Softmax function which rescales the input tensor so that the elements of the n-dimensional output Tensor lie in the range [0,1] and sum to 1.
 
